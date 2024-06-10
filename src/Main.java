@@ -8,7 +8,7 @@ public class Main {
 		
 		Dados dados = new Dados();
 		 System.out.println("Nome do Cliente: ");
-		 dados.setNome(scanner.next());
+		 dados.setNome(scanner.nextLine());
 		 System.out.println("Agência: ");
 		 dados.setAgencia(scanner.nextInt());
 		 System.out.println("Número da Conta: ");

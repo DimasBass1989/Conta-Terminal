@@ -48,8 +48,12 @@ public class Dados {
 	}
 	@Override
 	public String toString() {
-		return "Dados [nome=" + nome + ", agencia=" + agencia + ", numecoConta=" + numecoConta + ", saldo=" + saldo
-				+ "]";
+		return "Dados --------------------" + "\n"
+				+ "Nome do cliente: " + nome +"\n" 
+				+ "Agência: " + agencia +"\n" 
+				+ "Conta: " + numecoConta +"\n" 
+				+ "Saldo para saque: " + saldo
+				;
 	}
 	
 	
